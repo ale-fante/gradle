@@ -12,7 +12,7 @@ Gradle is self-updating
 - New gradle versions can be obtained automatically.
 
 Main features:
-- Gradle needs a file that contains a set of detailed steps (instructions on how to create the .apk artifact (a.k.a. build).
- build.gradle is the default name for this build file and it can be found on a Jenkins build workspace. (Android build job > workspace ... build.gradle)
+- Gradle needs a file that contains a set of detailed steps (instructions on how to create the artifacts (a.k.a. build).
+ build.gradle is the default name for this build file.
 
 - Gradle reads (parses) the build.gradle file and creates a DAG (Directed Acyclic Graph) which is a fancy way of saying that it creates a graph of tasks to know what to do. It then completes each task in a one direction way: it's acyclical - the cycle doesn't repeat.
